@@ -136,14 +136,12 @@ li:nth-child(3) img {
 
 .bottom-container {
   margin-top: 52px;
+  background-color: red;
   display: flex;
-  justify-content: center;
 }
 
 .bottom-container button {
   background: #28293e;
-  border: none;
-
 }
 
 .bottom-container button img {

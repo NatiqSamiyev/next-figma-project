@@ -91,7 +91,7 @@
   border: 1px solid #3a3c56;
   display: flex;
   justify-content: center;
-  align-items: flex-end;
+  align-items: ;
 }
 li:first-child img {
   width: 196px;
@@ -136,14 +136,10 @@ li:nth-child(3) img {
 
 .bottom-container {
   margin-top: 52px;
-  display: flex;
-  justify-content: center;
 }
 
 .bottom-container button {
   background: #28293e;
-  border: none;
-
 }
 
 .bottom-container button img {

@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@400;700;800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    padding: 140px 135px 180px 135px;
+    background-color: #28293E;
+   
+}
+
+.top-container{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.left{
+    width: 531px;
+}
+
+.left h1{
+    color: var(--text-light-accent, #EF6D58);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Epilogue;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+
+}
+
+.left h2{
+    color: var(--text-light, #FFF);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Epilogue;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 64px;
+    letter-spacing: -1px;
+    margin-top: 20px;
+
+}
+
+.right{
+    display: flex;
+    margin-top: 100px;
+}
+
+.right .btn-1{
+    margin-right: 16px;
+    
+
+}
+
+.right button{
+    border-radius: 25px;
+    width: 48px;
+    height: 48px;
+    background-color: #28293E;
+}
+
+
+.right  img{
+    width: 14.001px;
+    height: 9.001px;
+    fill: #FFF;
+}
+
+
+
+.right .box-2 img{
+    width: 14.001px;
+    height: 9.001px;
+    fill: #FFF;
+}
+
+.image-box{
+    width: 100%;
+    margin-top: 64px;
+}
+
+.image-box ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+.image-box ul li{
+    list-style-type: none;
+    width: 270px;
+    height: 272px;
+    border-radius: 6px;
+    border: 1px solid #3A3C56;
+}
+
+li:first-child img {
+    width: 196px;
+    height: 247px;
+    display: flex;
+    margin: auto;
+    margin-top: 24px;
+}
+
+li:nth-child(2) img{
+    width: 259px;
+    height: 232px;
+    margin-top: 39px;
+}
+
+li:nth-child(3) img{
+    width: 205px;
+    height: 238px;
+    margin-left: 37px;
+    margin-top: 33px;
+}
+
+.last-child img{
+    width: 230px;
+    height: 233px;
+    margin-top: 38px;
+    margin-left: 12px;
+}
+
+
+.image-box ul li h3{
+    margin-top: 25px;
+    color: var(--text-light, #FFF);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Epilogue;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+}
+
+.image-box ul li p{
+    color: var(--text-light-gray, rgba(255, 255, 255, 0.64));
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Epilogue;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; 
+}
+
+.bottom-container{
+    margin-top: 52px;
+    
+    
+}
+
+.bottom-container button{
+    
+    background: #28293E;
+  
+
+    
+  
+}
+
+.bottom-container button img{
+    width: 76px;
+    height: 12px;
+   
+
+
+}
